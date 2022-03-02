@@ -15,3 +15,7 @@ March 2 Changes:
 - added a "Radius" stat to the player, it relates to how close the player needs to be before they are able to interact with objects and monsters (Excluding ranged attacks and actions). Not yet implemented other than a visual circle that goes around the player (Temp Ofc).
 - added a stats struct to the parent block to add HP, blast risistance, and seethrough (like glass, for monsters).
 - Organized the files a little.
+- Started working on a state machine
+- used it in combonation with an unused, now used, variable, to fix a food and energy bug where the player could not use energy or food by hugging a wall.
+- Added a debug block for testing (Not currently implemented with anything
+- Changed some debug things around.
