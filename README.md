@@ -6,3 +6,12 @@ Feb 26 Changes:
 - Made and ate a grilled cheese, it was pretty good :D
 - Reworked some collision and sprinting mechanics to better fit the new moving system
 - Added vInput and hInput in the debug tool
+
+March 2 Changes:
+- Updated the player sprite to the idle sprite given by Oreo
+- Made the room background light blue to better show the new sprite
+- fixed an inventory logic bug
+- Doomed my mortal enemy to ten years of horse plinko.
+- added a "Radius" stat to the player, it relates to how close the player needs to be before they are able to interact with objects and monsters (Excluding ranged attacks and actions). Not yet implemented other than a visual circle that goes around the player (Temp Ofc).
+- added a stats struct to the parent block to add HP, blast risistance, and seethrough (like glass, for monsters).
+- Organized the files a little.
