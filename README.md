@@ -41,3 +41,22 @@ March 10th Changes:
 - Removed the default debug tool from the room to see Inventory stuff (I will bring it back with code making the
   text be on the bottom left instead later, if you want it in for some reason, it still functions, so just
   drag it in the room)
+  
+  March 11th
+- Made it so you can't go under 0 items
+- Made it so it didn't show the amount of items the player has if they run out (0 items)
+- Added a thing that detects what you inventory slot you have selected. (Switch using the scrollwheel)
+- Made it so the selected number doesn't underflow or overflow below 0 or above the max player inventory slots
+- Reflected the selected inventory fram visually.
+- Moved the origin for the inventory frame sprite from top left to middle center for a scaling thing, breaking
+  absolutley eveything visually
+- Fixed the issue and added scaling to the text too to compliment the look even more.
+- Added a tileset folder and added Oreo's tileset
+- Added a grass sprite that corrupted the entire project somehow 
+  (Thank god for constant backups, nothing was lost)
+- Fixed everything, and got the grass sprite working
+- Updated Oreo's Tileset slightly to better fit with itself (Sizing issue with the turns)
+- Added a scr_item script that makes it so the item actually goes into the inventory properly when picked up.
+  Things without durability (Like wood) are stackable, and things with durability (Like tools) are not. This
+  can be changed, but it's how it's set for now.
+- Began working on a thing that shows the item visually, emphasis on began.
