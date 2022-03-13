@@ -52,6 +52,7 @@ March 10th Changes:
   absolutley eveything visually
 - Fixed the issue and added scaling to the text too to compliment the look even more.
 - Added a tileset folder and added Oreo's tileset
+- The rock started to kick back
 - Added a grass sprite that corrupted the entire project somehow 
   (Thank god for constant backups, nothing was lost)
 - Fixed everything, and got the grass sprite working
@@ -60,3 +61,33 @@ March 10th Changes:
   Things without durability (Like wood) are stackable, and things with durability (Like tools) are not. This
   can be changed, but it's how it's set for now.
 - Began working on a thing that shows the item visually, emphasis on began.
+
+March 11th part 2 
+- Added a timer between item pickups so if you don't pick up an item in a certain amount of time, the amount
+  counter resets. (Bad explination I know, but I can show what I mean)
+- Updated scr_item() to better fit things and remove redundancies.
+- Started to fail to fight back from the rock
+- Made it so items draw on the screen in the inventory
+- Added an item script
+
+
+March 12th
+- Added a debug sword called the stick of gaming
+- Added a debug pickaxe called the pickaxe of gaming
+- Identified a bug where the item counter was going up, regardless if the items are different are not
+- Added a "Type" variable to the inventory struct.
+- Got beat up by the cool rock :(
+- Added a few things to both the player and pItem to fix the bug where picking up an item after your inventory
+  was full would crash the game. (Not workarounds, just missing code that is now added)
+- Reorganized the test room to better reflect what an actual room setup would look like 
+  (Look at room editor layers)
+- Lowered the players hitbox so players can squeeze through things that they look like they can
+- Added yet another changeable player stat (yay) called swordAOE.
+
+March 13th
+- Screamed at functions, graphs, and more pain unessasarily
+- Added a slash effect and a cursor that surrounds the player
+- Started to train to fight back and regain my honour
+- Added the mobs given by lucid in the game sprite wise
+- Added the slime to the game and added basic AI, Chase AI, and Lunge AI (Although they can currently
+  phase through walls)
