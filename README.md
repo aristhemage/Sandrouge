@@ -92,14 +92,14 @@ March 13th
 - Added the slime to the game and added basic AI, Chase AI, and Lunge AI (Although they can currently
   phase through walls)
   
-  March 30th- April 13th
+March 30th through April 13th
 	-Updated the Stick of gaming sprite because I thought it was ugly. 
 	Still a debug item for my amusement and testing, I just like the new sprite.
 	-Added some functionality to block breaking animations
 	-Made the breaking animation accurate to health of the block
 	-Revalued tools damLow and damHigh to just efficiency, as tools are not weapons.
 	-Updated inventory struct to reflect this
-  -Updated various other places to reflect this
+  	-Updated various other places to reflect this
 	-Stood the test of time against the allmighty rock... Won by the skin of my teeth.
 	-Made it so you can break the block, it appears as an item, and is pickupable
 	-Noted the very noticable bug where when picking up a block item, it is huge. Due to
